@@ -5,6 +5,8 @@ pipeline {
       steps {
         sh 'ruby --version'
         sh 'pwd'
+        sh 'touch HolaAlberto'
+        sh 'find / -name HolaAlberto'
       }
     }
   }
